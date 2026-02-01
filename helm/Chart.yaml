@@ -1,0 +1,20 @@
+apiVersion: v2
+name: vault
+description: A Helm chart for HashiCorp Vault server deployment
+type: application
+version: 1.0.0
+appVersion: 0.30.1
+home: https://www.vaultproject.io
+sources:
+  - https://github.com/hashicorp/vault
+maintainers:
+  - name: BYMV DevOps
+keywords:
+  - vault
+  - secrets
+  - security
+  
+dependencies:
+- name: vault
+  version: 0.30.1
+  repository: https://helm.releases.hashicorp.com

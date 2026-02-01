@@ -1,0 +1,21 @@
+# Kubernetes and Helm
+.kubeconfig
+*.kubeconfig
+secrets/
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Vault
+vault-tokens/
+vault-keys/
